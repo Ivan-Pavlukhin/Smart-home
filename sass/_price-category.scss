@@ -1,0 +1,45 @@
+.price-category{
+    margin-top: 80px;
+}
+
+.price-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.category{
+    display: grid;
+    grid-template-rows: 260px 1fr 2fr 1fr;
+    align-items: center;
+    width: 300px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #fff;
+    box-shadow: 8px 12px 21px 19px rgba(188, 116, 210, 0.2);
+    border-radius: 8px;
+    background: rgb(195,34,194);
+    background: linear-gradient(324deg, rgba(195,34,194,0.7346288857339811) 33%, rgba(130,23,154,0.7094188017003676) 53%);
+}
+
+.category .title{
+    text-align: center;
+}
+
+.category .button{
+    margin: 0 auto;
+}
+
+.title-section{
+    text-align: center;
+}
+
+.price-category .text{
+    max-width: 1000px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

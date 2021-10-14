@@ -1,0 +1,48 @@
+@import './variables';
+
+.header{
+    display: grid;
+    grid-template-columns: 90px 2fr 1fr 200px;
+    padding-top: 50px;
+}
+
+.logo,
+.nav,
+.search,
+.social{
+    align-self: center;
+}
+
+.nav,
+.social{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav{
+    padding-left: 60px;
+}
+
+.input{
+    height: 28px;
+    padding:  5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid $text-color;
+    box-shadow: none;
+    border-radius: 10px;
+    text-align: end;
+    font-weight: 500;
+    font-size: 16px;
+    color: $text-color
+}
+
+.input:hover,
+.input:focus{
+    border-color: $hover;
+}
+
+.input::placeholder{
+    font-size: 16px;
+    color: $text-color;
+}
+

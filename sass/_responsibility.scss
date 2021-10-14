@@ -1,0 +1,32 @@
+.responsibility{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 80px;
+    border: 1px solid $text-color;
+    border-radius: 10px;
+    box-shadow: 7px 9px 15px 22px rgba(246, 246, 246, 0.2);
+    background: rgb(195,34,194);
+background: linear-gradient(0deg, rgba(195,34,194,0.7346288857339811) 1%, rgba(215,45,253,0.32566530029980745) 65%);
+}
+
+.responsibility-box{
+    display: grid;
+    grid-template-rows: 170px 1fr 2fr;
+    grid-template-columns: 1fr;
+    max-width: 360px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.responsibility-box > .img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.title{
+    margin: 0 auto;
+}
+
+.responsibility .text{
+    text-align: center;
+}
